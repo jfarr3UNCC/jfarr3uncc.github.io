@@ -1,0 +1,17 @@
+body {
+    background-color: green;
+    text-align: center;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+a:visited {
+    color: orange;
+}
