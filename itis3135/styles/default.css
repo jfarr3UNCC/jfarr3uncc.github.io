@@ -3,6 +3,21 @@ body {
     text-align: center;
 }
 
+img {
+    scale: 50%;
+    margin-top: -200px;
+    margin-bottom: -150px;
+}
+
+.caption {
+    margin-top: auto; 
+}
+
+
+.courses li {
+    text-align: left;
+}
+
 a {
     color: orange;
     text-decoration: none;
