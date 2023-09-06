@@ -11,8 +11,7 @@ body {
 }
 
 .footer {
-    background-color: green;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -24,7 +23,6 @@ body {
 .caption {
     margin-top: auto; 
 }
-
 
 .courses li {
     text-align: left;
@@ -41,9 +39,4 @@ a:hover {
 
 a:visited {
     color: aliceblue;
-}
-
-ol {
-    margin-left: auto;
-    margin-right: auto;
 }
