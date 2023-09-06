@@ -12,6 +12,9 @@ body {
 
 .footer {
     background-color: green;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .validation {
