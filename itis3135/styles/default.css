@@ -10,22 +10,19 @@ body {
     margin-bottom: -150px;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.header {
-    background-color: green;
-}
-
 .caption {
     margin-top: auto; 
 }
 
 .courses li {
     text-align: left;
+}
+
+figure {
+    table tr:nth-child(even) {
+    background-color: red;
+    color: #fff; 
+    }
 }
 
 a {
