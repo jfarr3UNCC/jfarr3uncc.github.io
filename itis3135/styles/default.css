@@ -14,7 +14,13 @@ body {
     margin-top: auto; 
 }
 
-
+button {
+    background-color: orange;
+    color: teal;
+    font-family: sans-serif;
+    font-size: large;
+    margin: 1rem auto;
+}
 
 .courses li {
     text-align: left;
