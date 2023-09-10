@@ -14,15 +14,19 @@ body {
     margin-top: auto; 
 }
 
+
+
 .courses li {
     text-align: left;
 }
 
-figure table{
-    table tr:nth-child(even) {
-        background-color: red;
-        color: #fff; 
-    }
+.complex tr:nth-child(even){
+        background-color: black;
+        color: white; 
+}
+
+.complex tr:first-child {
+    background-color: black;
 }
 
 a {
