@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    background-color: #471323;
+    background-size: 400% 400%;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #585563;
+    border-bottom: 4px solid #73937E;
+    
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    padding: 10px;;
+}
+
+.qualities {
+    list-style: square;
+    list-style-position: inside;
+}
+
+.contact {
+    list-style-type: none;
+    margin-top: o;
+}
+
+a {
+    color: White;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+a:visited {
+    color: aliceblue;
+}
