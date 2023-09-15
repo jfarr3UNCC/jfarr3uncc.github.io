@@ -11,7 +11,10 @@ header {
     padding: 32px;
     background-color: #585563;
     border-bottom: 4px solid #73937E;
-    
+}
+
+.othersites {
+    margin-top: 1rem;
 }
 
 .intro_image{
