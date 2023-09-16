@@ -13,6 +13,11 @@ header {
     border-bottom: 4px solid #73937E;
 }
 
+.divider {
+    border-top: 3px solid #73937E;
+    border-bottom: 0px;
+}
+
 .othersites {
     margin-top: 1rem;
 }
@@ -35,8 +40,18 @@ button {
     margin: 1rem auto;
 }
 
-ol {
+ol, ul {
     list-style-type: none;
+}
+
+.critique {
+    margin: .5rem;
+}
+
+.principles {
+    list-style-type: square;
+    list-style-position: inside;
+    margin-right: 3.5rem;
 }
 
 .simple {
