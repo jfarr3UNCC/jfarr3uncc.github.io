@@ -1,7 +1,6 @@
 body {
     text-align: center;
-    background-image: url();
-    background-size: 400% 400%;
+    background-image: url("/itis3135/images/Gothic-Xerox-Textures-016.png");
     color: white;
 }
 
@@ -9,8 +8,8 @@ header {
     text-align: center;
     text-transform: uppercase;
     padding: 32px;
-    background-color: #585563;
-    border-bottom: 4px solid #73937E;
+    background-color: orangered;
+    border-bottom: 4px solid gray;
 }
 
 .divider {
