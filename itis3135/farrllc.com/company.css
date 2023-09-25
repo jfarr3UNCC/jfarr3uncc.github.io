@@ -32,6 +32,10 @@ header {
     margin-top: o;
 }
 
+footer {
+    margin-top: 10rem;
+}
+
 a {
     color: White;
     text-decoration: none;
