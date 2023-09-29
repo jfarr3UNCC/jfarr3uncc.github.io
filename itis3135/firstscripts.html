@@ -37,7 +37,21 @@
         <p>This is all my work for ITIS 3135</p>  
         <h3>Current Date and Time: </h3>  
         <p id="datetime"></p>
+        <form action="#" id="greetingForm">
+            <label for="name">What is your name: </label>
+            <input type="text" name="name" id="name" required placeholder="Enter your name">
+            <br>
+            <label for="mood">How are you feeling: </label>
+            <input type="text" name="mood" id="mood" required placeholder="Enter your mood">
+            <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
 
+        <div id="greetingMessage" style="display: none;">
+            <p>The Jacob Farr LLC welcomes you, <span id="userName"></span>!</p>
+            <p>We're glad you are doing <span id="userMood"></span>!</p>
+        </div>
 
 
 
