@@ -13,15 +13,9 @@ function updateDateTime() {
     // Get the time in the format "h:mm a"
     const formattedTime = now.toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit' });
 
-    // Create the display string
     const displayString = `Today is ${formattedTime} on ${dayOfWeek}, ${formattedDate}`;
 
-    // Update the content of the <h3> element
     document.getElementById("datetime").textContent = displayString;
 }
 
-// Call the function initially to display the date and time
 updateDateTime();
-
-// Update the date and time every second
-setInterval(updateDateTime, 1000);
