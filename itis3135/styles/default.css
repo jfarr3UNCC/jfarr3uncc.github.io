@@ -1,6 +1,7 @@
 body {
     text-align: center;
-    background-image: url("/itis3135/images/Gothic-Xerox-Textures-016.png");
+    /*background-image: url("/itis3135/images/Gothic-Xerox-Textures-016.png");*/
+    background-color: grey;
     color: white;
 }
 
