@@ -34,10 +34,10 @@
     </div>
     <main>
         <h2>Jacob Farr || ITIS 3135 Scripts</h2>
-        <p>This is all my work for ITIS 3135</p>  
         <h3>Current Date and Time: </h3>  
         <p id="datetime"></p>
-        <form action="#" id="greetingForm">
+        <hr class="divider">
+        <form class="greetingForm" action="#" id="greetingForm">
             <label for="name">What is your name: </label>
             <input type="text" name="name" id="name" required placeholder="Enter your name">
             <br>
@@ -47,16 +47,35 @@
             <button type="reset">Reset</button>
             <button type="submit">Submit</button>
         </form>
-
         <div id="greetingMessage" style="display: none;">
             <p>The Jacob Farr LLC welcomes you, <span id="userName"></span>!</p>
             <p>We're glad you are doing <span id="userMood"></span>!</p>
         </div>
-
-
-
-
+        <hr class="divider">
+        <form class="favoriteNum" action="#" id="favoriteNum">
+            <label for="num">What is your favorite number 0 - 10: </label>
+            <input type="text" name="num" id="num" required placeholder="Enter your number">
+            <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="shapeMessage" style="display: none;">
+            <p>Your shape is a  <span id="userNum"></span>!</p>
+        </div>
+        <hr class="divider">
         <script src="defaultscripts.js"></script> 
+        <form  class="quote" action="#" id="quote">
+            <label for="hours">How many hours do you need: </label>
+            <input type="text" name="hours" id="hours" required placeholder="Enter the amount of hours needed">
+            <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="quoteMessage" style="display: none;">
+            <p>That will cost</p>
+        </div>
+        <hr class="divider">
+        <form id="suprise"action="#"></form>
     </main>
     <script src="scripts/defaultscripts.js"></script> 
 </body>

@@ -29,5 +29,37 @@ document.getElementById('greetingForm').addEventListener('submit', function(even
 
 });
 
+document.getElementById('favoriteNum').addEventListener('submit', function(event){
+
+    event.preventDefault();
+
+    var userNum = Math.abs(Math.round(document.getElementById('num').value));
+
+    const shapeList = ["Not a Shape", "henagon", "digon", "trigon", "tetragon", "pentagon", "hexagon", "heptagon", "octagon", "enneagon", "decagon"];
+    const shape = shapeList[userNum];
+
+    document.getElementById('userNum').innerHTML = shape;
+
+    document.getElementById('shapeMessage').style.display = 'block';
+    
+});
+
+document.getElementById('quote').addEventListener('submit', function(event){
+
+    event.preventDefault();
+    
+    var price = document.getElementById('hours').value;
+    document.getElementById('price').innerHTML = price;
+
+    document.getElementById('quoteMessage').style.display = 'block';
+    
+
+});
+
+// document.getElementById('supriseFrog').addEventListener('click', function(event) {
+//     document.getElementById('frog').style.opacity = "100%";
+//     window.alert("help");
+// });
+
 updateDateTime();
 setInterval(updateDateTime, 1000);
