@@ -49,17 +49,41 @@ document.getElementById('quote').addEventListener('submit', function(event){
     event.preventDefault();
     
     var price = document.getElementById('hours').value;
-    document.getElementById('price').innerHTML = price;
+    document.getElementById('price').innerHTML = price * 33.3;
 
     document.getElementById('quoteMessage').style.display = 'block';
-    
 
 });
 
-// document.getElementById('supriseFrog').addEventListener('click', function(event) {
-//     document.getElementById('frog').style.opacity = "100%";
-//     window.alert("help");
-// });
+document.getElementById('suprise').addEventListener('submit', function(event){
+
+    document.getElementById('frogImage').style.display = 'block';
+
+});
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+
+    event.preventDefault();
+
+    const contact = document.getElementById('email').value;
+    document.getElementById('contact').innerHTML = contact;
+
+    document.getElementById('contactMessage').style.display = 'block';
+});
+
+document.getElementById('options').addEventListener('submit', function(event){
+
+    event.preventDefault;
+
+    const num = Math.floor(Math.random() * (3 - 1)) + 1;
+
+    const optionList =["Design Consultation", "Website Design", "Website Revamp"];
+    const option = optionList[num];
+
+    document.getElementById('option').innerHTML = option;
+
+    document.getElementById('optionMessage').style.display = 'block';
+});
 
 updateDateTime();
 setInterval(updateDateTime, 1000);

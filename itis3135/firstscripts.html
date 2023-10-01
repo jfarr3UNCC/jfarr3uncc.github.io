@@ -60,7 +60,7 @@
             <button type="submit">Submit</button>
         </form>
         <div id="shapeMessage" style="display: none;">
-            <p>Your shape is a  <span id="userNum"></span>!</p>
+            <p>Your shape is a  <span id="userNum"></span></p>
         </div>
         <hr class="divider">
         <script src="defaultscripts.js"></script> 
@@ -72,10 +72,35 @@
             <button type="submit">Submit</button>
         </form>
         <div id="quoteMessage" style="display: none;">
-            <p>That will cost</p>
+            <p>That will cost <span id="price"></span>$</p>
+            <p>Thats 33 dollars per hour</p>
         </div>
         <hr class="divider">
-        <form id="suprise"action="#"></form>
+        <form id="suprise"action="#">
+            <button type="submit">Press for a suprise</button>
+        </form>
+        <div id="frogImage" class="frogImage" style="display: none;">
+            <img class="frog" src="images/frog.png" alt="CuteFrog">
+        </div>
+        <hr class="divider">
+        <form class="contactForm" action="#" id="contactForm">
+            <label for="email">What is your email: </label>
+            <input type="email" name="email" id="email" required placeholder="Enter your email">
+            <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+            <br>
+        </form>
+        <div id="contactMessage" style="display: none;">
+            <p>we will contact you at <span id="contact"></span></p>
+        </div>
+        <hr class="divider">
+        <form id="options" action="#">
+            <button type="submit">Press to see some of what we do</button>
+        </form>
+        <div id="optionMessage">
+            <p><span id="option"></span></p>
+        </div>
     </main>
     <script src="scripts/defaultscripts.js"></script> 
 </body>
