@@ -85,5 +85,9 @@ document.getElementById('options').addEventListener('submit', function(event){
     document.getElementById('optionMessage').style.display = 'block';
 });
 
+document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?url" + location.href);
+document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org//css-validator/validator?url" + location.href);
+
+
 updateDateTime();
 setInterval(updateDateTime, 1000);
