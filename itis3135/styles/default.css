@@ -2,7 +2,7 @@ body {
     text-align: center;
     background-image: url("/itis3135/images/Gothic-Xerox-Textures-016.png"); 
     background-color: gray;
-    color: white;
+    color: rgb(232, 219, 219);
 }
 
 header {
@@ -39,6 +39,14 @@ header {
     margin-top: auto; 
 }
 
+.sitemap {
+    padding-bottom: 1rem;
+}
+
+.sitemap figcaption {
+    font-style: italic;
+}
+
 button {
     background-color: orangered;
     color: white;
@@ -49,6 +57,10 @@ button {
 
 ol, ul {
     list-style-type: none;
+}
+
+.clientInfo {
+    padding-right: 3rem;
 }
 
 .critique {
