@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div data-include="components/header.html"></div>
+    <link rel="stylesheet" href="styles/default.css">
+    <div id="formContainer">
+        <form id="surveyForm">
+            <!-- Your form fields here as specified -->
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+
+    <div id="submittedData" style="display: none;">
+        <!-- This is where the submitted data will be displayed -->
+    </div>
+    <div data-include="components/footer.html"></div>
+    <script src="Scripts/survey.js"></script>
+    <script src="scripts/include.js"></script>
+</body>
+</html>

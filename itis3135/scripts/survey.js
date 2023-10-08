@@ -1,28 +1,27 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.getElementById('byoForm').addEventListener('submit', function(event){
 
-    const courseList = document.getElementById("byoForm");
-    const addCourseButton = document.getElementById("addCourseButton");
+    event.preventDefault;
 
-    addCourseButton.addEventListener("click", addCourse);
+    var userName = document.getElementById('name').value;
+    var userMascot = document.getElementById('mascot').value;
+    var userCaption = document.getElementById('caption').value;
+    var userPersonalBackground = document.getElementById('personalBackground').value;
+    var userProfessionalBackground = document.getElementById('professionalBackground').value;
+    var userAcademicBackground = document.getElementById('academicBackground').value;
+    var userWebBackground = document.getElementById('webBackground').value;
+    var userPlatform = document.getElementById('platform').value;
 
-    function addCourse() {
-        
-        const courseEntry = document.createElement("div");
-        courseEntry.classList.add("byoForm");
+    document.getElementById('userName').innerHTML = userName;
+    document.getElementById('userMascot').innerHTML = userMascot;
+    document.getElementById('userCaption').innerHTML = userCaption;
+    document.getElementById('userPersonalBackground').innerHTML = userPersonalBackground;
+    document.getElementById('userProfessionalBackground').innerHTML = userProfessionalBackground;
+    document.getElementById('userAcademicBackground').innerHTML = userAcademicBackground;
+    document.getElementById('userWebBackground').innerHTML = userWebBackground;
+    document.getElementById('userPlatform ').innerHTML = userPlatform ;
 
-        const courseInput = document.createElement("input");
-        courseInput.type = "text";
-        courseInput.placeholder = "Enter course name";
-        courseEntry.appendChild(courseInput);
 
-        const deleteButton = document.createElement("button");
-        deleteButton.innerText = "Delete";
-        deleteButton.classList.add("delete-button");
-        deleteButton.addEventListener("click", () => {
-            courseList.removeChild(courseEntry);
-        });
-        courseEntry.appendChild(deleteButton);
+    document.getElementById('userIntro').style.display = 'block';
 
-        courseList.appendChild(courseEntry);
-    }
+    alert("help");
 });
