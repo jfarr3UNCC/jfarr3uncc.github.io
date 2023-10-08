@@ -2,7 +2,7 @@ document.getElementById('newForm').addEventListener('submit', function(event){
 
     var userName = document.getElementById('name').value;
     var userMascot = document.getElementById('mascot').value;
-    var userCaption = document.getElementById('caption').value;0-
+    var userCaption = document.getElementById('caption').value;
     var userPersonalBackground = document.getElementById('personalBackground').value;
     var userProfessionalBackground = document.getElementById('professionalBackground').value;
     var userAcademicBackground = document.getElementById('academicBackground').value;
