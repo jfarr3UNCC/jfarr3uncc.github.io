@@ -11,15 +11,12 @@
     <main>
         <h2>BYO Intro Page</h2>
         <h3>Time to BYO Intro page, please fill out the form below so we can create your own page</h3>
-        <form action="#" id="byoForm">
-            <label for="name">What is your name:</label>
-            <input type="text" id="name" value="Jacob Farr" required>
+        <form class="newForm" action="#" id="newForm">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" value="Jacob Farr">
             <br>
-            <label for="mascot">What is your mascot:</label>
+            <label for="mascot">Mascot:</label>
             <input type="text" id="mascot" value="Jumping Frogs" required>
-            <br>
-            <label for="image">Upload your image</label>
-            <input type="file" id="image">
             <br>
             <label for="caption">Enter a caption for your image:</label>
             <input type="text" id="caption" value="Posing while my friend cleans up a spilled drink" required>
@@ -34,26 +31,38 @@
             <input type="text" id="academicBackground" value="This is my third and final year at UNCC, I am majoring in Computer Science and expect to graduate in may." required>
             <br>
             <label for="webBackground">What is your web development background:</label>
-            <input type="text" id="webBackground" required>
+            <input type="text" id="webBackground" required value="I am very inexperienced in web development">
             <br>
             <label for="platform">What is your primary computer platform:</label>
             <input type="text" id="platform" value="I mostly use Windows 10/11 for my personal computer for work and games, I sometimes use linux but not as much as windows. I have used macOS in the past but find it limiting and I personally don't like the platform." required>
-            <br>
-            <label for="courses">List your courses</label>
-            <br>
-            <button id="addCourseButton">Add Course</button>
             <br>
             <label for="funny">What is something funny/interesting item to remember you by:</label>
             <input type="text" id="funny" value="I used to have very long and curly hair but  recently cut it short, throughout the semester I expect it to grow back to where it once was as I usually don't get haircuts during the school year out of laziness." required>
             <br>
             <input type="checkbox" name="consent" id="consent" required>
             <label for="consent">"I understand that what is on this page is not password protected and I will not put anything here that I don’t want publicly available."</label>
-            <br>
+
             <button type="reset">Reset</button>
             <button type="submit">Submit</button>
         </form>
         <div id="userIntro" style="display: none;">
-            <p>Name: <span id="userName"></span></p>
+            <h1 id="userName"></h1>
+            <h2 id="userMascot"></h2>
+            <p class="caption" id="userCaption"></p>
+            <h3>Personal Background:</h3>
+            <p id="userPersonalBackground"></p>
+            <h3>Professional Background</h3>
+            <p id="userProfessionalBackground"></p>
+            <h3>Academic Background"</h3>
+            <p id="userAcademicBackground"></p>
+            <h3>Web Development Background</h3>
+            <p id="userWebBackground"></p>
+            <h3>Preferred Computer Platform</h3>
+            <p id="userPlatform"></p>
+            <h3>Funny/interesting Item to Remember Me by</h3>
+            <p id="userFunny"></p>
+
+            
         </div>
     </main>
     <div data-include="components/footer.html"></div>
