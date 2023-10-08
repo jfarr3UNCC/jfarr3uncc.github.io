@@ -18,6 +18,9 @@
             <label for="mascot">Mascot:</label>
             <input type="text" id="mascot" value="Jumping Frogs" required>
             <br>
+            <label>upload your image</label>
+            <input type="file" name="file" id="image" required>
+            <br>
             <label for="caption">Enter a caption for your image:</label>
             <input type="text" id="caption" value="Posing while my friend cleans up a spilled drink" required>
             <br>
@@ -41,13 +44,14 @@
             <br>
             <input type="checkbox" name="consent" id="consent" required>
             <label for="consent">"I understand that what is on this page is not password protected and I will not put anything here that I don’t want publicly available."</label>
-
+            <br>
             <button type="reset">Reset</button>
             <button type="submit">Submit</button>
         </form>
         <div id="userIntro" style="display: none;">
             <h1 id="userName"></h1>
             <h2 id="userMascot"></h2>
+            <div id="loadImage"></div>
             <p class="caption" id="userCaption"></p>
             <h3>Personal Background:</h3>
             <p id="userPersonalBackground"></p>
@@ -61,8 +65,6 @@
             <p id="userPlatform"></p>
             <h3>Funny/interesting Item to Remember Me by</h3>
             <p id="userFunny"></p>
-
-            
         </div>
     </main>
     <div data-include="components/footer.html"></div>
