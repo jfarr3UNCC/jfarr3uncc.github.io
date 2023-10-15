@@ -13,7 +13,6 @@ header {
     border-bottom: 4px solid gray;
 }
 
-
 .divider {
     border-top: 3px solid gray;
     border-bottom: 0px;
@@ -109,4 +108,14 @@ a:hover {
 
 a:visited {
     color: aliceblue;
+}
+
+@media (max-width: 576px) { 
+    .wireframe {
+        height: 300px;
+        width: 500px;
+        margin-left: -1.5rem;
+    }
+
+    
 }
