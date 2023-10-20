@@ -85,6 +85,22 @@ document.getElementById('options').addEventListener('submit', function(event){
     document.getElementById('optionMessage').style.display = 'block';
 });
 
+function appendToDisplay(value) {
+    document.getElementById('display').value += value;
+}
+
+function clearDisplay() {
+    document.getElementById('display').value = '';
+}
+
+function calculate() {
+    try {
+        document.getElementById('display').value = eval(document.getElementById('display').value);
+    } catch (error) {
+        document.getElementById('display').value = 'Error';
+    }
+}
+
 document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?url" + location.href);
 document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org//css-validator/validator?url" + location.href);
 
