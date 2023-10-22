@@ -85,6 +85,53 @@ document.getElementById('options').addEventListener('submit', function(event){
     document.getElementById('optionMessage').style.display = 'block';
 });
 
+window.onload = function () {
+    document.getElementById("clearButton").addEventListener("click", clearDisplay);
+    document.getElementById("plusButton").addEventListener("click", function () {
+        appendToDisplay('+');
+    });
+    document.getElementById("minusButton").addEventListener("click", function () {
+        appendToDisplay('-');
+    });
+    document.getElementById("sevenButton").addEventListener("click", function () {
+        appendToDisplay('7');
+    });
+    document.getElementById("eightButton").addEventListener("click", function () {
+        appendToDisplay('8');
+    });
+    document.getElementById("nineButton").addEventListener("click", function () {
+        appendToDisplay('9');
+    });
+    document.getElementById("fourButton").addEventListener("click", function () {
+        appendToDisplay('4');
+    });
+    document.getElementById("fiveButton").addEventListener("click", function () {
+        appendToDisplay('5');
+    });
+    document.getElementById("sixButton").addEventListener("click", function () {
+        appendToDisplay('6');
+    });
+    document.getElementById("oneButton").addEventListener("click", function () {
+        appendToDisplay('1');
+    });
+    document.getElementById("twoButton").addEventListener("click", function () {
+        appendToDisplay('2');
+    });
+    document.getElementById("threeButton").addEventListener("click", function () {
+        appendToDisplay('3');
+    });
+    document.getElementById("multiplyButton").addEventListener("click", function () {
+        appendToDisplay('*');
+    });
+    document.getElementById("zeroButton").addEventListener("click", function () {
+        appendToDisplay('0');
+    });
+    document.getElementById("decimalButton").addEventListener("click", function () {
+        appendToDisplay('.');
+    });
+    document.getElementById("equalsButton").addEventListener("click", calculate);
+};
+
 function appendToDisplay(value) {
     document.getElementById('display').value += value;
 }
