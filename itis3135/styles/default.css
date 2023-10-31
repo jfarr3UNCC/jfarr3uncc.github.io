@@ -111,6 +111,12 @@ ol, ul {
     margin: 5px;
 }
 
+.resultsTable {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
 .complex tr:nth-child(even){
         background-color: black;
         color: white; 
