@@ -1,0 +1,193 @@
+body {
+    background-image: url("/images/Gothic-Xerox-Textures-016.png");
+    color: #202227;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #202227;
+}
+
+.logo {
+    height: 1000px;
+    width: 1000px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 600px;
+}
+
+.logoTop {
+    height: 300x;
+    width: 300px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+
+/*Navigation Buttons*/
+.button1 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.personalWorkButton .textPersonal{
+    position: relative;
+    font-size: 30px;
+    top: 140px;
+    left: 141px;
+    width: 20px;
+}
+
+.personalWorkButton .textWork {
+    position: relative;
+    font-size: 30px;
+    top: 100px;
+    left: 160px;
+    width: 20px;
+}
+
+.button2 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 320px;
+    left: 100px;
+}
+
+.professionalWorkButton .textProfessional{
+    position: relative;
+    font-size: 28px;
+    top: 230px;
+    left: 123px;
+    width: 20px;
+}
+
+.professionalWorkButton .textWork {
+    position: relative;
+    font-size: 28px;
+    top: 195px;
+    left: 160px;
+    width: 20px;
+}
+
+.button3 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 540px;
+    left: 100px;
+}
+
+.clientWorkButton .textClient{
+    position: relative;
+    font-size: 30px;
+    top: 320px;
+    left: 155px;
+    width: 20px;
+}
+
+.clientWorkButton .textWork {
+    position: relative;
+    font-size: 30px;
+    top: 280px;
+    left: 160px;
+    width: 20px;
+}
+
+.button4 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 760px;
+    left: 100px;
+}
+
+.contactButton .textContact {
+    position: relative;
+    font-size: 30px;
+    top: 420px;
+    left: 145px;
+    width: 20px;
+}
+/*End of Navigation Buttons*/
+
+
+/*Slideshow*/
+
+
+.pageHeader {
+    color: #E8E8E8;
+    text-align: center;
+    margin-top: -25rem;
+    font-size: 100px;
+}
+
+.slides {
+    position: absolute;
+    top: 300px;
+    right: 1200px;
+    display: none;
+    height: 400px;
+    width: 400px;
+}
+
+.slides2 {
+    position: absolute;
+    top: 300px;
+    right: 550px;
+    height: 400px;
+    width: 400px;
+}
+
+.commission{
+    position: absolute;
+    top: 300px;
+    right: 900px;
+    display: none;
+    height: 400px;
+    width: 400px;
+}
+
+.slideText {
+    font-size: 60px;
+    color: #E8E8E8;
+    text-align: center;
+    margin-top: -450px;
+}
+
+.desc {
+    font-size: 20px;
+    position: absolute;
+    top: 500px;
+    right: 500px;
+    color: #E8E8E8;
+}
+
+.contact {
+    text-align: center;
+    color: #E8E8E8;
+    margin-top: -20rem;
+    font-size: 100px;
+}
+
+.info {
+    text-align: center;
+    color: #E8E8E8;
+}
+
+.info a {
+    color: #E8E8E8;
+}
+
+.info a:visited {
+    color: #E8E8E8;
+}

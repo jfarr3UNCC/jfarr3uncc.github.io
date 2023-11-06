@@ -1,0 +1,186 @@
+body {
+  background-image: url("/images/Gothic-Xerox-Textures-016.png");
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.logo {
+  text-align: center;
+  font-size: 5rem;
+} 
+
+/*
+ animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+*/
+
+header {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.divider {
+  border-top: 3px solid gray;
+  border-bottom: 0px;
+}
+
+nav {
+  background-color: orangered;
+  width: 100%;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: orangered;
+}
+
+nav a {
+  margin: 10px;
+}
+
+.personal {
+  display: flex;
+  align-items: center;
+}
+
+.pro {
+  display: flex;
+  align-items: center;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+} 
+
+.content {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+ 
+.perslides {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.proslides {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.clientslides {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.text {
+  text-align: center;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+  color: White;
+  text-decoration: none;
+}
+
+a:hover {
+  color: aliceblue;
+}
+
+a:visited {
+  color: aliceblue;
+}
+
+@media (max-width: 850px) { 
+
+  .personal {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pro {
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .client {
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .perslides {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  .proslides {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  .clientslides {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+
