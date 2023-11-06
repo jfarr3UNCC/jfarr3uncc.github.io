@@ -1,10 +1,12 @@
 body {
-    background-image: url("/images/Gothic-Xerox-Textures-016.png");
+    background-image: url("/project/images/Gothic-Xerox-Textures-016.png");
     color: #202227;
+    background-color: #202227;
 }
 
 a {
     text-decoration: none;
+    color: #202227;
 }
 
 a:visited {
