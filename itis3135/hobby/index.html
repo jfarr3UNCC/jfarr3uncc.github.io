@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sking Hobby Site</title>
+    <style>
+        body {
+            background-color: #3E6990;
+            color: #07070A;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        button {
+            background-color: #DCE0D9;
+            height: 50px;
+            width: 150px
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            margin-right: 5px;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .who {
+            display: none;
+        }
+        
+        .whoBody {
+            display: flex;
+        }
+
+        .whoBody p {
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .who img {
+            display: block;
+            height: 400px;
+            width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .what {
+            display: block;
+        }
+
+        .whatBody p {
+            text-align: center;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .whatImages {
+            display: flex;
+        }
+        .whatImages img{
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            width: 400px;
+        }
+        
+        .when {
+            display: none;
+        }
+
+        .whenBody {
+            display: flex;
+        }
+
+        .whenBody p {
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .when img {
+            display: block;
+            height: 400px;
+            width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .where {
+            display: none;
+        }
+
+        .whereBody {
+            display: flex;
+        }
+
+        .whereBody p {
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .where img {
+            display: block;
+            height: 400px;
+            width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .how {
+            display: none;
+        }
+
+        .howBody {
+            display: flex;
+        }
+
+        .how p {
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .how img {
+            display: block;
+            height: 400px;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .why {
+            display: none;
+        }
+
+        .whyody {
+            display: flex;
+        }
+
+        .why p {
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .whyImages {
+            display: flex;
+        }
+        .whyImages img{
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="title">Skiing Hobby Site</h1>
+        <div class="menu">
+            <button onclick="showWho()">Who</button>
+            <button onclick="showWhat()">What</button>
+            <button onclick="showWhen()">When</button>
+            <button onclick="showWhere()">Where</button>
+            <button onclick="showHow()">How</button>
+            <button onclick="showWhy()">Why</button>
+        </div>
+    </header>
+    <main>
+        <section class="what" id="what">
+            <h2>What is Skiing</h2>
+            <div class="whatBody">
+                <p>Skiing is a winter sport where you slide over snow on long boards called "Skis". It is a fast and thrilling sport that anyone can learn and enjoy.</p>
+                <div class="whatImages">
+                    <img src="images/skiing.jpg" alt="a man skiing down a steep slope">
+                    <img src="images/childskiing.jpg" alt="a child carving on skis">
+                </div>
+            </div>
+        </section>
+        <section class="who" id="who">
+            <h2>Who Skiis</h2>
+            <div class="whoBody">
+                <p>Anyone can and should try skiing. Though the vast majority of skiers tend to lean toward the older generation, that was when skiing hit its first major boom. The median age of a skier is still 35, as skiing can be an expensive and time-consuming hobby.</p>
+                <p>Skiing can be a difficult hobby to learn, as not only do you need to be near a ski mountain, but you also need to be able to afford rentals or buy skis, which can be expensive. However, if you do live near a ski mountain, skis can be bought on sites like Facebook, Market Place, and eBay for relatively cheap. </p>
+            </div>
+            <img src="images/skilift.jpeg" alt="a group of 3 people on a ski lift">
+        </section>
+        <section class="when" id="when">
+            <h2>When is it Best to Ski</h2>
+            <div class="whenBody">
+                <p>The ski season varies across the country; in North Carolina, the season can run from November all the way to April, with the best time to ski in February and early March.</p>
+                <p>The conditions needed to ski are, of course, for there to be snow on the ground. However, how much snow and what type of snow matter a lot and can completely change your experience. Ideally, you will want a tall layer of snow with soft "powder" snow on top..</p>
+            </div>
+            <img src="images/powder.jpeg" alt="fluffy powder snow">
+        </section>
+        <section class="where" id="where">
+            <h2>Where can you Ski</h2>
+            <div class="whereBody">
+                <p>TThere are hundreds of ski mountains across the country where both new skiers and seasoned veterans of the sport can go to enjoy the hobby..</p>
+                <p>In some places, there are even mountains with artificial snow that are open year-round and where you can ski at any time.</p>
+            </div>
+            <img src="images/map.PNG" alt="Map of multiple ski locations across North Carolina">
+        </section>
+        <section class="how" id="how">
+            <h2>How to Ski</h2>
+            <div class="howBody">
+                <p>Skiing is an easy sport to learn but a hard sport to master. In a day, you can learn how to "pizza and french fry" and go down the most simple slopes without falling.</p>
+                <p>There are many aspects of sailing that one can learn and master. One of the most important parts is learning to carve. This means using the edges of your skis to "carve" the snow, allowing you to control your turns and speed precisely.</p>
+            </div>
+            <img src="images/skiyay.jpeg" alt="A women standing on skis with her arms up in celebration">
+        </section>
+        <section class="why" id="why">
+            <h2>Why You Should Ski</h2>
+            <div class="whyBody">
+                <p>Skiing is a thrilling and enjoyable sport than anyone can partake in. Not only is it a good way for young children and adults to get outside and stay active. Its also a sport enjoyed by people of an older generation who want to stay active and outside aswell.</p>
+                <div class="whyImages">
+                    <img src="images/childskiing.jpg" alt="A young child being taught to ski">
+                    <img src="images/oldski.jpeg" alt="an old photo of a group of men skiing">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="validation">
+            <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
+                <img src="images/button_validation_html5.png" alt="Validate webpage HTML." />
+            </a>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
+                <img src="images/button_validation_css.png"  alt="Validate webpage CSS." />
+            </a> 
+    </footer>
+    <script>
+        function showWho() {
+            document.getElementById('who').style.display = 'block';
+            document.getElementById('what').style.display = 'none';
+            document.getElementById('when').style.display = 'none';
+            document.getElementById('where').style.display = 'none';
+            document.getElementById('how').style.display = 'none';
+            document.getElementById('why').style.display = 'none';
+        }
+        function showWhat() {
+            document.getElementById('who').style.display = 'none';
+            document.getElementById('what').style.display = 'block';
+            document.getElementById('when').style.display = 'none';
+            document.getElementById('where').style.display = 'none';
+            document.getElementById('how').style.display = 'none';
+            document.getElementById('why').style.display = 'none';
+        }
+        function showWhen() {
+            document.getElementById('who').style.display = 'none';
+            document.getElementById('what').style.display = 'none';
+            document.getElementById('when').style.display = 'block';
+            document.getElementById('where').style.display = 'none';
+            document.getElementById('how').style.display = 'none';
+            document.getElementById('why').style.display = 'none';
+        }
+        function showWhere() {
+            document.getElementById('who').style.display = 'none';
+            document.getElementById('what').style.display = 'none';
+            document.getElementById('when').style.display = 'none';
+            document.getElementById('where').style.display = 'block';
+            document.getElementById('how').style.display = 'none';
+            document.getElementById('why').style.display = 'none';
+        }
+        function showHow() {
+            document.getElementById('who').style.display = 'none';
+            document.getElementById('what').style.display = 'none';
+            document.getElementById('when').style.display = 'none';
+            document.getElementById('where').style.display = 'none';
+            document.getElementById('how').style.display = 'block';
+            document.getElementById('why').style.display = 'none';
+        }
+        function showWhy() {
+            document.getElementById('who').style.display = 'none';
+            document.getElementById('what').style.display = 'none';
+            document.getElementById('when').style.display = 'none';
+            document.getElementById('where').style.display = 'none';
+            document.getElementById('how').style.display = 'none';
+            document.getElementById('why').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
