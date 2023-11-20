@@ -27,6 +27,11 @@ header {
     padding-bottom: 1rem;
 }
 
+.reviewImage {
+    height: 360px;
+    width: 640px
+}
+
 .frog {
     margin-left: auto;
     margin-right: auto;
