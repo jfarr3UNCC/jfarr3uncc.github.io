@@ -25,7 +25,13 @@ function showSlides() {
     if (slideIndex2 > slides2.length) {slideIndex2 = 1}    
     slides2[slideIndex2-1].style.display = "block";  
 
-
-
     setTimeout(showSlides, 5000); 
+    
+}
+
+function showRates(){
+
+  let image = document.getElementsByClassName("slides commission");
+  image.style.display = "none";
+
 }

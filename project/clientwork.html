@@ -10,7 +10,7 @@
     <div data-include="components/header.html"></div>
     <a href="index.html"><img class="logoTop" src="images\primary logo orange.svg" alt=""></a>
     <h1 class="pageHeader">Client/Commission Work</h1>
-    <div class="slideshowCommission">
+    <div class="slideshowCommission" id="ssc">
         <div class="slides commission">
             <img src="images\clientwork\batter.png" style="width:100%">
         </div>
@@ -18,6 +18,19 @@
             <img src="images\clientwork\gordonblue.png" style="width:100%">
         </div>
     </div>
+    <button onclick="showRates()" class="commissionButton">Commission Brooke</button>
+    <div class="commissionRates" id="commissionRates">
+        <div class="rates">
+            <img class="rateImages" id="ratesImages" src="images/clientwork/shouldersup.png" alt="Prices for shoulder up Commissions">
+            <img class="rateImages" id="ratesImages" src="images/clientwork/waistup.png" alt="Prices for waist up Commissions">
+            <img class="rateImages" id="ratesImages" src="images/clientwork/fullbody.png" alt="Prices for full body Commissions">
+        </div>
+    </div>
+    <script>
+        function showRates() {
+            document.getElementById('commissionRates').style.display = 'flex';
+        }
+    </script>
     <script src="scripts\slideshowCommission.js"></script>
     <script src="scripts/include.js"></script>
 </body>
